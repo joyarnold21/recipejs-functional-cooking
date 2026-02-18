@@ -15,6 +15,25 @@
     
     <!-- Main Content Area -->
     <main>
+        <!-- Filter Controls -->
+        <div class="controls">
+            <div class="filter-group">
+                <h3>Filter Recipes</h3>
+                <button class="filter-btn active" data-filter="all">Show All</button>
+                <button class="filter-btn" data-filter="easy">Easy</button>
+                <button class="filter-btn" data-filter="medium">Medium</button>
+                <button class="filter-btn" data-filter="hard">Hard</button>
+                <button class="filter-btn" data-filter="quick">Quick Recipes</button>
+            </div>
+
+            <div class="sort-group">
+                <h3>Sort Recipes</h3>
+                <button class="sort-btn active" data-sort="none">Default Order</button>
+                <button class="sort-btn" data-sort="name">Name (A-Z)</button>
+                <button class="sort-btn" data-sort="time">Time (Fastest First)</button>
+            </div>
+        </div>
+
         <div id="recipe-container">
             <!-- Recipe cards will be rendered here by JavaScript -->
         </div>
