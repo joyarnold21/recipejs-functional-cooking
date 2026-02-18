@@ -195,3 +195,62 @@ main {
     padding-left: 0.75rem;
     border-left: 2px dashed #eee;
 }
+
+/* Search input in header */
+.search-wrap {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#search-input {
+    width: 60%;
+    max-width: 600px;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.5);
+    outline: none;
+}
+
+#search-input::placeholder {
+    color: rgba(255,255,255,0.85);
+}
+
+#search-clear {
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.12);
+    color: white;
+    cursor: pointer;
+}
+
+.hidden { display: none; }
+
+/* Recipe counter */
+#recipe-counter {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Favorite heart button */
+.favorite-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.15rem;
+    color: #bbb;
+    margin-left: 0.5rem;
+}
+
+.favorite-btn.active {
+    color: #e25555;
+}
+
+/* Small responsive tweak */
+@media (max-width: 600px) {
+    #search-input { width: 90%; }
+    .controls { gap: 1rem; }
+}
