@@ -11,3 +11,5 @@ Additional details:
 
 - Currently learning: JavaScript, Git, and building small projects
 - Goals: Contribute to open source, improve code review skills
+- **Location:** Your City, Your Country
+- **Contact:** your.email@example.com (optional)
